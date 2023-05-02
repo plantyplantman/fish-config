@@ -4,6 +4,7 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
 end
 # <<< interactive commands <<<
+
 # =============================================================================
 # >>> aliases >>>
 alias icd="cd $HOME/Library/Mobile\ Documents/com\~apple\~CloudDocs"
@@ -13,6 +14,7 @@ alias c="clear"
 alias gac="git add . && git commit -m"
 alias gp="git push"
 # <<< aliases <<<
+
 # =============================================================================
 # >>> Helper functions >>>
 function sudo
@@ -23,8 +25,8 @@ function sudo
     end
 end
 # <<< Helper functions <<<
-# =============================================================================
 
+# =============================================================================
 # >>> Zoxide initialise >>>
 # -----------------------------------------------------------------------------
 # == Utility functions for zoxide ==
@@ -114,6 +116,7 @@ function zi
     __zoxide_zi $argv
 end
 # <<< Zoxide initialise <<<
+
 # =============================================================================
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
@@ -121,4 +124,5 @@ if test -f /Users/home/miniconda3/bin/conda
     eval /Users/home/miniconda3/bin/conda "shell.fish" "hook" $argv | source
 end
 # <<< conda initialize <<<
+
 # =============================================================================
