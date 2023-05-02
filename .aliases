@@ -1,0 +1,11 @@
+# sane defaults
+alias .. "cd .."
+alias ... "cd ../.."
+alias t "touch"
+
+# utils
+alias cat bat
+
+# typos
+alias gac "git add . && git commit -m"
+alias gp "git push"
